@@ -1,0 +1,20 @@
+Data: 19/05/2015    Inicio: 20:30 Termino 22:00
+Participantes: 
+ * Leandro Barbosa
+ * Élysson MR
+
+Problema Escolhido: http://dojopuzzles.com/problemas/exibe/caixa-eletronico/
+
+Massa:
+ * Foi legal pois o problema foi se resolvendo e tendo em mente o introzamento entre os participantes
+ * Existiu boas idéias de refatoração
+ * Seguimos TDD ao pé da letra :)
+ * O problema acredito que poderia ter sido refotarado mais.
+ * O modelo proposto dos "turnos" pode ser seguido sem mais problemas
+
+Paia:
+ * Fugiu um pouco do escopo proposto pelo problema
+ * Já conhecia a resposta do problema
+ * Não foi um problema com muitos testes
+ * Chegou-se ao ponto que o problema precisava ser resolvido, senão teriam muitos testes "bobos"
+ * Faltou mais gente...
