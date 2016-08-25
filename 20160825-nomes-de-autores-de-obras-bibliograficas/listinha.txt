@@ -5,3 +5,4 @@ http://dojopuzzles.com/problemas/exibe/nomes-de-autores-de-obras-bibliograficas/
 Passos
 
 [X] Formatar Nome Simples
+[X] Formatar Nome com apenas uma palavra
