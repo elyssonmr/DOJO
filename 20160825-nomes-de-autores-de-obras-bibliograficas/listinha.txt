@@ -6,3 +6,12 @@ Passos
 
 [X] Formatar Nome Simples
 [X] Formatar Nome com apenas uma palavra
+[] Palavras como "da", "de", "do", "das" e "dos"
+[] Palavras com "da", "de", "do", "das" e "dos" não podem ser maiusculas
+[X] Nomes terminados em "FILHO", "FILHA", "NETO", "NETA", "SOBRINHO", "SOBRINHA"
+ou "JUNIOR" devem formatar a o penultimo nome também
+[] Nomes com 2 palavras sendo a ultima uma "FILHO", "FILHA", "NETO", "NETA",
+"SOBRINHO", "SOBRINHA" são excessão a regra do penultimo nome também ser
+maíusculo
+[] Os nomes devem iniciar em maíusculo
+[] Outras partes não devem iniciar em maíusculo (tipo "de" e outros)
