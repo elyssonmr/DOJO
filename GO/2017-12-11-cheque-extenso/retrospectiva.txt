@@ -1,0 +1,20 @@
+Data: 11/12/2017
+Participantes:
+ * Élysson MR
+
+Problema Escolhido: http://dojopuzzles.com/problemas/exibe/cheque-por-extenso/
+
+Massa:
+ * Estudo de uma linguagem nova
+ * Problema novo
+ * Pesquisar pelas diferenças dentre Go e Python
+ * Quebra de Paradigmas
+ * Já conhecia a resposta do problema (ou que foi massa e paia)
+
+Paia:
+ * Ainda estou apanhando muito com GO
+ * Tive que pesquisar todas estruturas de GO
+ * Já conhecia a resposta do problema (ou que foi massa e paia)
+ * Ainda não sei fazer testes com GO
+ * Faltou fazer a perte de centavos...
+ * Preciso de parceiros...
