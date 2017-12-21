@@ -1,0 +1,28 @@
+Data: 20/12/2017 Inicio: 12:30 Término: 13:30
+Participantes:
+ * Élysson MR
+ * Mayara Fernandes
+ * Yuri Fernandes
+ * Sávio Gomes
+ * Andreia Baia
+ * Leonardo Santo
+
+Problema Escolhido: http://dojopuzzles.com/problemas/exibe/jokenpo/
+
+Massa:
+ * Linguagem mais fácil de ser implementada
+ * Prática
+ * Ótimo Instrutor
+ * Ótima Iniciativa
+ * Agora sei o que é "def"
+ * Pensei em diversas formas de solução e não fiquei perdida
+ * A forma como visualizamos rodar o código foi massa
+
+Paia:
+ * Faltau alguns conceitos iniciais, como terminal por exemplo
+ * Faltou refatoração
+ * Faltou apresentar mais a sintaxe
+ * Poderia ser desde o inicio (abordando instalação e etc)
+ * Faltou Testes unitários
+ * Precisei de alguem para me guiar no Python
+ * Poderia ter durado mais tempo
