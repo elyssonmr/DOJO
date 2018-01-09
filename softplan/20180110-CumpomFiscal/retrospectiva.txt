@@ -1,0 +1,46 @@
+Data: 10/01/2017 Inicio: 12:30 Término:
+Participantes:
+ * Aguém
+
+
+Problema Escolhido: Cupom Fiscal Peronalizado
+
+##################################
+### Cupom Fiscal Personalizado ###
+##################################
+Sr. José da venda da esquina está solicitando a sua ajuda a desenvolver
+um sistema para que ele possa imprimir cupons fiscais para seus clientes,
+conforme o modelo abaixo:
+
+###################################
+# Sistema de venda Sr. José       #
+# Data Compra: 10/01/2018         #
+#=================================#
+# Produtos Comprados:             #
+# Nº Item |   Nome   |   Valor    #
+# 1       |Pão de Sal| R$ 1,00    #
+# 2       |Guarana Pu| R$ 6,00    #
+# 3       |Coxinha Fr| R$ 1,50    #
+# 4       |Pastelzinh| R$ 2,00    #
+#=================================#
+# Total:               R$ 350,50  #
+#=================================#
+# Obrigado Volte Sempre           #
+# Venda Sr. José agradece         #
+#=================================#
+# DOJO Interprises SA             #
+###################################
+
+Os engenheiros de produto após conversarem com o Sr. José, levantaram que
+inicialmente será necessário carregar uma lista de produtos contendo os campos
+conforme descrito no modelo.
+Sua tarefa será carregar esta lista de produtos e então imprimi-los (sem estarem
+formatados no modelo) para que o Sr. José possa visualizar os produtos de uma
+venda.
+
+
+Massa:
+ * \o/
+
+Paia:
+ * :'(
