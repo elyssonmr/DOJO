@@ -1,6 +1,12 @@
-Data: 10/01/2017 Inicio: 12:30 Término:
+Data: 10/01/2017 Inicio: 12:35 Término: 13:40
 Participantes:
- * Aguém
+ * Élysson Mendes Rezende
+ * Sávio Gomes
+ * Mayara Fernandes
+ * Yuri Fernandes
+ * Fernando Damasceno
+ * Gutierry Pereira
+ * Guilherme Gieseler
 
 
 Problema Escolhido: Cupom Fiscal Peronalizado
@@ -23,7 +29,7 @@ conforme o modelo abaixo:
 # 3       |Coxinha Fr| R$ 1,50    #
 # 4       |Pastelzinh| R$ 2,00    #
 #=================================#
-# Total:               R$ 350,50  #
+# Total:               R$ 10,50   #
 #=================================#
 # Obrigado Volte Sempre           #
 # Venda Sr. José agradece         #
@@ -40,7 +46,24 @@ venda.
 
 
 Massa:
- * \o/
+ * Troca de conhecimento
+ * Didática
+ * Variação de exercícios
+ * Nivelamento do pessoal parecido
+ * Iniciativa muito legal
+ * conhecimento do mestre sobre o assunto
+ * Envolvimento das pessoas
+ * Problema sugerido
+ * Continuação para o próximo DOJO
+ * Todos conseguiram dar ideia e praticar dentro do Tempo
+ * Variação de sintaxes
 
 Paia:
- * :'(
+ * Teclado
+ * Tempo
+ * Mestre ficou bravo
+ * Participantes poderiam preparar um pouco mais para participar
+ * Cheguei atrasado (um participante)
+ * "O mestre pegou ar em alguns momentos, relaxa mestre (risos)"
+ * Pessoal tem que vir desapegado das demais linguagens
+ * Pouco tempo pilotando o computador
