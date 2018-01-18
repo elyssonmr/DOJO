@@ -1,5 +1,7 @@
 """Cupom Fiscal"""
 
+from datetime import date
+
 # Exemplo "f string"
 # f"alguma coisa {variaval_no_context}"
 #           10        20        31
@@ -9,28 +11,45 @@
 # 1  |Pão de Sal| R$ 1,00    #
 
 def imprimir_linha_cerquilha():
-    print('#'*31)
+    print('#'*35)
+
+def imprimir_separador_sessao():
+    print('#=================================#')
+
+def imprimir_cabecalho():
+    imprimir_linha_cerquilha()
+    print(f'# Sistema de Venda Sr. José       #')
+    hoje = date.today()
+    print(f'# Data Compra: {hoje.strftime("%d/%m/%Y"):<18.18} #')
+    # print('# Data Compra: 18/01/2018         #')
+    imprimir_separador_sessao()
+
+def imprimir_produtos(produtos):
+    print('# Produtos Comprados:             #')
+    print('# Nº Item |   Nome   |   Valor    #')
+    total = 0.0
+
+    for indice, produto in enumerate(lista_produtos):
+        total += produto['valor']
+        imprimir_item(produto, indice + 1)
+
+    imprimir_separador_sessao()
+    print(f'# Total:               R$ {total:> 7.2f} #')
+    imprimir_separador_sessao()
 
 def imprimir_item(item_lista,indice):
-    indice_formatado = '%3d' % (indice,)
-    produto_formatado = '%10s' % (item_lista["descricao"],)
-    valor_formatado = ' R$ %5.2f' % (item_lista["valor"],)
+    # indice_formatado = '%3d' % (indice,)
+    # produto_formatado = '%10s' % (item_lista["descricao"],)
+    # valor_formatado = ' R$ %5.2f' % (item_lista["valor"],)
 
-    print("#", "|".join([indice_formatado, produto_formatado, valor_formatado]), "#")
+    print(f'# {indice:<8}|{item_lista["descricao"]:^10.10}| R$ {item_lista["valor"]:>7.2f} #')
+    # print("#", "|".join([indice_formatado, produto_formatado, valor_formatado]), "#")
 
-def cabecalho():
-    
-    imprimir_linha_cerquilha()
-    print('# Sistema de Venda Sr. José   #')
-    print('# Data Compra: 18/01/2018     #')
-    print('#')
-
-def rodape():
-    print('#=============================#')
-    print('# Obrigado Volte Sempre       #')
-    print('# Venda Sr. José agradece     #')
-    print('#=============================#')
-    print('# DOJO Interprises SA         #')
+def imprimir_rodape():
+    print('# Obrigado Volte Sempre           #')
+    print('# Venda Sr. José agradece         #')
+    imprimir_separador_sessao()
+    print('# DOJO Interprises SA             #')
     imprimir_linha_cerquilha()
 
 lista_produtos = []
@@ -44,20 +63,9 @@ pergunta = 'S'
 lista_produtos = [
     {"descricao": "Nutela", "valor": 8.00},
     {"descricao": "Trident", "valor": 3.50},
-    {"descricao": "Pasta de dente", "valor": 10}
+    {"descricao": "Pasta de dente", "valor": 10.00},
 ]
-total = 0
 
-cabecalho()
-
-for indice, produto in enumerate(lista_produtos):
-    total += produto['valor']
-    # print("Produto: %s | R$ %d" % (produto["descricao"], produto["valor"]))
-    # print("Produto:", produto['descricao'],"|","R$",produto['valor'])
-    
-    imprimir_item(produto, indice+1)
-
-print('O total é: %d' % (total,))
-#print(f'O total é: {total}')
-
-rodape()
+imprimir_cabecalho()
+imprimir_produtos(lista_produtos)
+imprimir_rodape()
