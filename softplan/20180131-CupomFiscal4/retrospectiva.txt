@@ -1,0 +1,56 @@
+Data: 24/01/2017 Inicio: 12:30 Término: 13:35
+Participantes:
+ * Élysson Mendes Rezende
+ * Sávio Gomes
+ * Mayara Fernandes
+ * Yuri Fernandes
+ * Fernando Damasceno
+ * Gutierry Pereira
+ * Leonardo Santo
+ * Guilherme Gieseler
+
+
+Problema Escolhido: Cupom Fiscal Peronalizado
+
+##################################
+### Cupom Fiscal Personalizado ###
+##################################
+Sr. José da venda da esquina está solicitando a sua ajuda a desenvolver
+um sistema para que ele possa imprimir cupons fiscais para seus clientes,
+conforme o modelo abaixo:
+
+###################################
+# Sistema de venda Sr. José       #
+# Data Compra: 10/01/2018         #
+#=================================#
+# Produtos Comprados:             #
+# Nº Item |   Nome   |   Valor    #
+# 1       |Pão de Sal| R$ 1,00    #
+# 2       |Guarana Pu| R$ 6,00    #
+# 3       |Coxinha Fr| R$ 1,50    #
+# 4       |Pastelzinh| R$ 2,00    #
+#=================================#
+# Total:               R$ 10,50   #
+#=================================#
+# Obrigado Volte Sempre           #
+# Venda Sr. José agradece         #
+#=================================#
+# DOJO Interprises SA             #
+###################################
+
+Os engenheiros de produto após conversarem com o Sr. José, levantaram que
+inicialmente será necessário carregar uma lista de produtos contendo os campos
+conforme descrito no modelo.
+Sua tarefa será formatar o cupom de acordo com o exemplo acima.
+
+
+Massa:
+ * Aprendemos teste unitário no Python
+ * Instrutor não ficou bravo
+ * Teste unitário e teste exploratório (mock e testunit). Very Good!
+
+Paia:
+ * Não teve chocolate
+ * Adicionar mais um dia de DOJO na semana
+ * Não sei nada de Unittest :(
+ * Preciso aprender mais para poder colaborar no DOJO
